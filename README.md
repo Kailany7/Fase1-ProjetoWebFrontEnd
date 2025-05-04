@@ -17,7 +17,7 @@ Fui responsável pelo desenvolvimento do conteúdo informativo nas seguintes se�
   - Nome  
   - Tema da palestra  
   - Mini biografia
-  - foto
+  - Imagens
 
 ## 🛠️ Tecnologias utilizadas
 
