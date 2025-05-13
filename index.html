@@ -1,127 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conteúdo informativo</title>
-    
+
     <!--Utilizando style para organizar a tabela e tirar a marcação das abreviações -->
     <style>
-        abbr { 
-            text-decoration: none;
-            border-bottom: none;
-            cursor: default;
-        }
-
-         .tabelaP {
-            width:  800%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            max-width: 900px;
-        }
-
-        .tabelaP th,
-        .tabelaP td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-            vertical-align: top;
-        }
-
-        .tabelaP img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
+      abbr {
+        text-decoration: none;
+        border-bottom: none;
+        cursor: default;
+      }
     </style>
-
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <!-- Parte do Sobre o Evento -->
-        <section> <!-- ATENÇÃO Acrescentar id da parte de navegação -->
-            <h2> Sobre o Evento </h2>
-            <p> 
-                <strong>TechConnect 2025 – Inovação para o Futuro</strong> é mais que um evento, é um ponto de encontro entre mentes criativas que estão moldando a próxima geração da tecnologia. 
-            </p>
-            <p>
-                Reunindo especialistas, estudantes e apaixonados pelo universo digital, o evento tem como objetivo impulsionar a inovação tecnológica, promover conexões valiosas entre profissionais e inspirar novas ideias por meio de palestras, painéis e workshops interativos. Com uma programação dinâmica, o TechConnect 2025 convida todos a explorarem temas essenciais como <em> Inteligência artificial, startups sustentáveis e desenvolvimento web</em>, em um ambiente propício à troca de experiências e ao crescimento profissional.
-            </p>
-        </section>
+      <!-- Parte do Sobre o Evento -->
+      <section>
+        <!-- ATENÇÃO Acrescentar id da parte de navegação -->
+        <h2>Sobre o Evento</h2>
+        <p>
+          <strong>TechConnect 2025 – Inovação para o Futuro</strong> é mais que
+          um evento, é um ponto de encontro entre mentes criativas que estão
+          moldando a próxima geração da tecnologia.
+        </p>
+        <p>
+          Reunindo especialistas, estudantes e apaixonados pelo universo
+          digital, o evento tem como objetivo impulsionar a inovação
+          tecnológica, promover conexões valiosas entre profissionais e inspirar
+          novas ideias por meio de palestras, painéis e workshops interativos.
+          Com uma programação dinâmica, o TechConnect 2025 convida todos a
+          explorarem temas essenciais como
+          <em>
+            Inteligência artificial, startups sustentáveis e desenvolvimento
+            web</em
+          >, em um ambiente propício à troca de experiências e ao crescimento
+          profissional.
+        </p>
+      </section>
 
-        <!-- Parte da Programação -->
-         <section>  <!-- Acrescentar id da parte de navegação -->
-            <h2> Programação </h2>
-            <ul>
-                <li> <strong>08h00 </strong> - Abertura</li>
-                <li> <strong>09h00 </strong> - Palestra: <abbr title="Inteligência artificial"> "IA </abbr> na Educação" </li> <!-- Utilizando 'abbr' para definir a abreviação  -->
-                <li> <strong>11h00</strong> - Painel: "Startups e Tecnologia Sustentável" </li>
-                <li> <strong>14h00</strong> - Workshop: "Startups e Tecnologia Sustentável" </li>
-            </ul>
+      <!-- Parte da Programação -->
+      <section>
+        <!-- Acrescentar id da parte de navegação -->
+        <h2>Programação</h2>
+        <ul>
+          <li><strong>08h00 </strong> - Abertura</li>
+          <li>
+            <strong>09h00 </strong> - Palestra:
+            <abbr title="Inteligência artificial"> "IA </abbr> na Educação"
+          </li>
+          <!-- Utilizando 'abbr' para definir a abreviação  -->
+          <li>
+            <strong>11h00</strong> - Painel: "Startups e Tecnologia Sustentável"
+          </li>
+          <li>
+            <strong>14h00</strong> - Workshop: "Startups e Tecnologia
+            Sustentável"
+          </li>
+        </ul>
+      </section>
+      <!-- Parte dos Palestrantes -->
+      <section>
+        <!-- Acrescentar id da parte de navegação -->
+        <h3>Palestrantes</h3>
+        <table border="1">
+          <!--Utilizando o atributo 'class' para a organização das tabelas -->
+          <therad>
+            <tr>
+              <th>Fotos</th>
+              <th>Nome</th>
+              <th>Tema da Palestra</th>
+              <th>Minibiografia</th>
+            </tr>
+          </therad>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="./assets/imageIAMaria.png"
+                  alt="foto da palestrante Maria Gabriela"
+                  width="100"
+                />
+              </td>
+              <td>Maria Gabriela</td>
+              <td>
+                <abbr title="Inteligência artificial"> IA </abbr> na Educação
+              </td>
+              <td>
+                Especialista em tecnologias educacionais, Maria desenvolve
+                soluções baseadas em
+                <abbr title="Inteligência artificial"> IA </abbr> para melhorar
+                o aprendizado em escolas públicas.
+              </td>
+            </tr>
 
-         </section>
-        
-        <!-- Parte dos Palestrantes -->
-         <section> <!-- Acrescentar id da parte de navegação -->
-            <h2> Palestrantes </h2>
-            <table class="tabelaP">
-                <tr>
-                    <th>Fotos</th>
-                    <th>Nome</th>
-                    <th>Tema da Palestra</th>
-                    <th>Minibiografia</th>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="./assets/imageIAMaria.png" alt="foto da palestrante Maria Gabriela"
-                    </td>
-                    <td>
-                        Maria Gabriela
-                    </td>
-                    <td>
-                        <abbr title="Inteligência artificial"> IA </abbr> na Educação
-                    </td>
-                    <td>
-                        Especialista em tecnologias educacionais, Maria desenvolve soluções baseadas em  <abbr title="Inteligência artificial"> IA </abbr> para melhorar o aprendizado em escolas públicas.
-                    </td>
-                </tr>
+            <tr>
+              <td>
+                <img
+                  src="./assets/imageIACarlos.png"
+                  alt="foto do palestrante Carlos"
+                  width="100"
+                />
+              </td>
+              <td>Carlos Moura</td>
+              <td>Startups Sustentáveis</td>
+              <td>
+                Empreendedor e fundador da GreenTech, Carlos atua com inovação
+                voltada à sustentabilidade no setor de tecnologia.
+              </td>
+            </tr>
 
-                <tr>
-                    <td>
-                        <img src="./assets/imageIACarlos.png" alt="foto do palestrante Carlos"
-                    </td>
-                    <td>
-                        Carlos Moura
-                    </td>
-                    <td>
-                        Startups Sustentáveis
-                    </td>
-                    <td>
-                        Empreendedor e fundador da GreenTech, Carlos atua com inovação voltada à sustentabilidade no setor de tecnologia.
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <img src="./assets/imageIAManuela.png" alt="foto da palestrante Emanuela Andrade"
-                    </td>
-                    <td>
-                        Emanuela Andrade
-                    </td>
-                    <td>
-                        Desenvolvimento Web
-                    </td>
-                    <td>
-                        Emanuela é desenvolvedora front-end e instrutora, conhecida por suas abordagens práticas e envolventes em web design responsivo.
-                    </td>
-                </tr>
-
-               
-            </table>
-         </section>
-
+            <tr>
+              <td>
+                <img
+                  src="./assets/imageIAManuela.png"
+                  alt="foto da palestrante Emanuela Andrade"
+                  width="100"
+                />
+              </td>
+              <td>Emanuela Andrade</td>
+              <td>Desenvolvimento Web</td>
+              <td>
+                Emanuela é desenvolvedora front-end e instrutora, conhecida por
+                suas abordagens práticas e envolventes em web design responsivo.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
-</body>
+  </body>
 </html>
